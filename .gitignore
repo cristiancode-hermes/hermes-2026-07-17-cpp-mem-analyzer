@@ -1,0 +1,41 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Binaries
+mem-analyzer
+test_suite
+
+# Dependencies (FetchContent)
+_deps/
+
+# Environment
+.env
+*.env.local
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
